@@ -14,9 +14,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 mongoose
-  .connect(process.env.MONGODB_LOCAL_URI)
+  .connect(process.env.MONGODB_ATLAS_URI)
   .then(() => {
-    console.log("Successfully connected to mongodb");
+    console.log("Successfully connected to mongodb atlas");
   })
   .catch((err) => {
     console.error("Mongodb connection error: ", err);
