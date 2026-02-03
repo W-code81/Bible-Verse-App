@@ -1,0 +1,62 @@
+[
+  {
+    "book": "John",
+    "chapter": 3,
+    "verse": "16",
+    "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": "5-6",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight."
+  },
+  {
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": "13",
+    "text": "I can do all things through Christ who strengthens me."
+  },
+  {
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": "1-3",
+    "text": "The Lord is my shepherd, I lack nothing. He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul."
+  },
+  {
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": "9",
+    "text": "Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go."
+  },
+  {
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": "4-5",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs."
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": "28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose."
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": "11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": "33",
+    "text": "But seek first his kingdom and his righteousness, and all these things will be given to you as well."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 11,
+    "verse": "28",
+    "text": "Come to me, all you who are weary and burdened, and I will give you rest."
+  }
+]

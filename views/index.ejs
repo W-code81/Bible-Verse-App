@@ -1,0 +1,31 @@
+<%- include('header') %>
+    <title>Bible Verse Generator</title>
+    
+    <section>
+      <nav>
+        <div class="logo">Bible Verse Generator</div>
+        <ul>
+          <li><a onclick="darkMode()" class="dark-mode-toggle"><i class="fas fa-moon"></i></a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="main-container">
+      <h1>Bible Verse</h1>
+      <div class="scroll-indicator"></div>
+
+      <div class="sub-container">
+        <p><%= verse.text %></p>
+        <p class="right">
+          <strong
+            ><%= verse.book %> <%= verse.chapter %>:<%= verse.verse %></strong
+          >
+        </p>
+      </div>
+
+      <!-- <button onclick="location.href='/random'">Next Verse</button> -->
+      <button onclick="location.reload()" class="refresh-btn">Refresh</button>
+    </section>
+
+<%- include('footer') %>
