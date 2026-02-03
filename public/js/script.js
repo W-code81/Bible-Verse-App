@@ -1,7 +1,7 @@
 // Dark mode functionality
 function darkMode() {
     const body = document.body;
-    const isDark = body.classList.toggle('dark-mode');
+    const isDark = body.classList.toggle('dark-mode'); //toggles classes
 
     // Save preference to localStorage
     localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
