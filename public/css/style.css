@@ -114,6 +114,7 @@ h1 {
   height: 3px;
   /* background: #00df82; */
   background-color: var(--scroll-bg);
+  border-radius: 5px;
   margin: auto auto;
   animation: slide 1.8s ease-in-out infinite;
   opacity: 0.8;
