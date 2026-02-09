@@ -1,7 +1,7 @@
 // Dark mode functionality
 function darkMode() {
-    const body = document.body;
-    const isDark = body.classList.toggle('dark-mode'); //toggles classes
+    const html = document.documentElement;
+    const isDark = html.classList.toggle('dark-mode'); //toggles classes
 
     // Save preference to localStorage
     localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
@@ -20,10 +20,10 @@ function updateDarkModeIcon(isDark) {
 // Initialize dark mode on page load
 document.addEventListener('DOMContentLoaded', function() {
     const darkModePreference = localStorage.getItem('darkMode');
-    const body = document.body;
+    const html = document.documentElement;
 
     if (darkModePreference === 'enabled') {
-        body.classList.add('dark-mode');
+        html.classList.add('dark-mode');
         updateDarkModeIcon(true);
     } else {
         updateDarkModeIcon(false);

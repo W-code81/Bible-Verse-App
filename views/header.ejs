@@ -12,5 +12,12 @@
     <link rel="icon" type="image/x-icon" href="/img/images.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <script>
+      // Prevent flash of unstyled content by applying dark mode before page renders
+      const darkModePreference = localStorage.getItem('darkMode');
+      if (darkModePreference === 'enabled') {
+        document.documentElement.classList.add('dark-mode');
+      }
+    </script>
   </head>
   <body>
