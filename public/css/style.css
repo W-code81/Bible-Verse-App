@@ -120,6 +120,17 @@ h1 {
   opacity: 0.8;
 }
 
+.scroll-indicator-long {
+  width: 450px;
+  height: 3px;
+  /* background: #00df82; */
+  background-color: var(--scroll-bg);
+  border-radius: 5px;
+  margin: auto auto;
+  animation: slide 1.8s ease-in-out infinite;
+  opacity: 0.8;
+}
+
 @keyframes slide {
   0% {
     transform: translateY(0);
